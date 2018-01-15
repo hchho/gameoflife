@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.1" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ca.bcit.comp2526.a2d.World" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/World.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="456" width="232" x="1352" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ca.bcit.comp2526.a2d.Cell" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Cell.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="696" width="314" x="1291" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ca.bcit.comp2526.a2d.GameFrame" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/GameFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="616" width="293" x="1647" y="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ca.bcit.comp2526.a2d.Main" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="322" x="1647" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ca.bcit.comp2526.a2d.Plant" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Plant.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="243" x="1605" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ca.bcit.comp2526.a2d.RandomGenerator" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/RandomGenerator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="185" x="1961" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="ca.bcit.comp2526.a2d.TurnListener" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/TurnListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="255" x="1645" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="ca.bcit.comp2526.a2d.Herbivore" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Herbivore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="243" x="251" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="ca.bcit.comp2526.a2d.HerbivoreEdible" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/HerbivoreEdible.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="76" width="166" x="1645" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="10" language="java" name="ca.bcit.comp2526.a2d.Movable" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Movable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="149" x="62" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="11" language="java" name="ca.bcit.comp2526.a2d.Animal" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Animal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="149" x="251" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="ca.bcit.comp2526.a2d.Edible" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Edible.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="149" x="534" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="ca.bcit.comp2526.a2d.Mortal" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Mortal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="149" x="1058" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="ca.bcit.comp2526.a2d.Organism" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Organism.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="719" width="284" x="1249" y="333"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="ca.bcit.comp2526.a2d.DoubleLinkedList" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/DoubleLinkedList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="296" width="211" x="2186" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="ca.bcit.comp2526.a2d.DoubleLinkedList.Node" 
+    project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/DoubleLinkedList.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="149" x="2186" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="ca.bcit.comp2526.a2d.CarnivoreEdible" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/CarnivoreEdible.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="76" width="165" x="534" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="ca.bcit.comp2526.a2d.Carnivore" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Carnivore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="243" x="723" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="19" language="java" name="ca.bcit.comp2526.a2d.Hungry" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Hungry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="167" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="ca.bcit.comp2526.a2d.Omnivore" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Omnivore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="256" width="243" x="1006" y="1588"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="21" language="java" name="ca.bcit.comp2526.a2d.OmnivoreEdible" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/OmnivoreEdible.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="76" width="166" x="739" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="22" language="java" name="ca.bcit.comp2526.a2d.PlantEdible" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/PlantEdible.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="76" width="149" x="1851" y="1884"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="23" language="java" name="ca.bcit.comp2526.a2d.Reproduces" project="COMP 2526 Game of Life Part A" 
+    file="/COMP 2526 Game of Life Part A/src/ca/bcit/comp2526/a2d/Reproduces.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="201" x="796" y="1092"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="25">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="28">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <realization id="29">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <dependency id="31">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="32">    
+    <bendpoint x="1563" y="333"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <nesting id="33">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </nesting>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="35">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="36" name="head">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="37" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <bendpoint x="1363" y="1588"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="39" name="world">        
+        <position height="0" width="0" x="70" y="-56"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="1">        
+        <position height="0" width="0" x="70" y="-56"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <generalization id="43">    
+    <bendpoint x="1258" y="1092"/>    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <dependency id="44">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="46">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <dependency id="47">    
+    <bendpoint x="1279" y="1092"/>    
+    <bendpoint x="1279" y="1588"/>    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="49">    
+    <bendpoint x="1321" y="1588"/>    
+    <bendpoint x="1321" y="1092"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="50" name="organism">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="52">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <realization id="56">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <dependency id="57">    
+    <bendpoint x="1970" y="333"/>    
+    <bendpoint x="1970" y="1092"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <generalization id="58">    
+    <bendpoint x="1027" y="1092"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="59">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="60" name="next">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="61" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="62">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="63">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="64" name="tail">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="65" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <generalization id="67">    
+    <bendpoint x="31" y="1588"/>    
+    <bendpoint x="31" y="1092"/>    
+    <bendpoint x="31" y="333"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="68">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="69" name="organisms">        
+        <position height="0" width="0" x="-280" y="-600"/>      
+      </attribute>      
+      <multiplicity id="70" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-280" y="-600"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="73">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="74" name="prev">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="77" name="world">        
+        <position height="0" width="0" x="-179" y="31"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-179" y="31"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="80">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <association id="81">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="82" name="curr">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="83" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="84">    
+    <bendpoint x="1237" y="1092"/>    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="85">    
+    <bendpoint x="1300" y="1092"/>    
+    <bendpoint x="1300" y="1588"/>    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="86" name="location">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="87" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="88">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="89">    
+    <bendpoint x="1342" y="1588"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="90" name="cells">        
+        <position height="0" width="0" x="-113" y="-4667"/>      
+      </attribute>      
+      <multiplicity id="91" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-113" y="-4667"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="92">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="93">    
+    <bendpoint x="1930" y="1092"/>    
+    <bendpoint x="1930" y="1588"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="94">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="95" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="96" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="97">    
+    <bendpoint x="1614" y="1092"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <realization id="98">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="21"/>  
+  </realization>  
+  <dependency id="99">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
